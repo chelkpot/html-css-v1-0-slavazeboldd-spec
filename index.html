@@ -2,10 +2,48 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Задание по HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стилизация страницы с помощью CSS</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    
-    </body>
+    <header>
+        <h1>Главный заголовок страницы</h1>
+        <h2>Второстепенный заголовок</h2>
+    </header>
+
+    <main>
+        <div class="content-block">
+            <p>Это основной текст страницы с настройками шрифта и размера.</p>
+            <p>Еще один абзац основного текста для демонстрации стилей.</p>
+        </div>
+
+        <div class="colored-background">
+            <p>Этот блок имеет специальный фон.</p>
+        </div>
+
+        <div class="special-text">
+            <p>Этот текст имеет особое оформление с помощью класса.</p>
+        </div>
+
+        <div id="unique-element">
+            <p>Этот элемент имеет уникальный стиль благодаря идентификатору.</p>
+        </div>
+
+        <div class="parent">
+            <p>Этот параграф является дочерним элементом и имеет особый стиль.</p>
+            <span>Этот span тоже внутри div, но не параграф</span>
+        </div>
+
+        <div class="nested-elements">
+            <div>
+                <p>Этот текст внутри вложенного div получит специальные стили.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>Подвал страницы</p>
+    </footer>
+</body>
 </html>
